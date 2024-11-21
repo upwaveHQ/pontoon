@@ -48,7 +48,7 @@ class VCSProject:
     """
 
     SOURCE_DIR_SCORES = {
-        "templates": 3,
+        # "templates": 3,
         "en-US": 2,
         "en-us": 2,
         "en_US": 2,
