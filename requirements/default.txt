@@ -1489,8 +1489,7 @@ tqdm==4.66.5 \
     # via
     #   openai
     #   sacremoses
-translate-toolkit==3.3.2 \
-    --hash=sha256:0795bd3c8668213199550ae4ed8938874083139ec1f8c473dcca1524a206b108
+translate-toolkit @ git+https://github.com/upwaveHQ/translate@4ca41aa36e7e77784401c0b1946c3d1ca065e971
     # via -r requirements/default.in
 typing-extensions==4.12.2 \
     --hash=sha256:04e5ca0351e0f3f85c6853954072df659d0d13fac324d0072316b67d7794700d \
@@ -1529,7 +1528,9 @@ vine==5.1.0 \
 wcwidth==0.2.13 \
     --hash=sha256:3da69048e4540d84af32131829ff948f1e022c1c6bdb8d6102117aac784f6859 \
     --hash=sha256:72ea0c06399eb286d978fdedb6923a9eb47e1c486ce63e9b4e64fc18303972b5
-    # via prompt-toolkit
+    # via
+    #   prompt-toolkit
+    #   translate-toolkit
 webencodings==0.5.1 \
     --hash=sha256:a0af1213f3c2226497a97e2b3aa01a7e4bee4f403f95be16fc9acd2947514a78 \
     --hash=sha256:b36a1c245f2d304965eb4e0a82848379241dc04b865afcc4aab16748587e1923
