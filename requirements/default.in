@@ -57,4 +57,4 @@ whitenoise==5.2.0
 
 # Dependencies loaded from outside pypi.
 silme @ https://github.com/mozilla/silme/archive/v0.11.2.zip
-translate-toolkit @ git+https://github.com/upwaveHQ/translate@4ca41aa36e7e77784401c0b1946c3d1ca065e971
+translate-toolkit @ git+https://github.com/upwaveHQ/translate@772839ae1018d4d6f9b9845d90faedbf2f874e1f
